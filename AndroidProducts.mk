@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_tulip.mk
+    $(LOCAL_DIR)/reloaded_tulip.mk
