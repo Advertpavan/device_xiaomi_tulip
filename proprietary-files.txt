@@ -1147,8 +1147,10 @@ lib64/vendor.xiaomi.hardware.mlipay@1.0.so:vendor/lib64/vendor.xiaomi.hardware.m
 vendor/bin/mlipayd|f772b60d0e77fc73b7429229c6104643828770e7
 vendor/lib64/libmlipay.so|bf4f08280cfe292693f6fdcb61893eeaea247db1
 
+# QPerformance.jar - sakura-user-9-PKQ1.180917.001-9.1.25-release-keys
+-framework/QPerformance.jar|7097b093f8c946892176835a7b80977e8fea570c
+
 # QTI Performance libs - from daisy - PKQ1.180917.001
--framework/QPerformance.jar
 -framework/UxPerformance.jar|0e3babfa37e2368aee16de3d6f8cdea06e081dea
 bin/perfservice|03d6368017d4c41f7fea647c669b69d6567238af
 etc/init/perfservice.rc|67144c3f1800f976cb58463c4370882d2d820947
