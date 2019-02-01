@@ -25,6 +25,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+import /vendor/etc/init/hw/init.performance.rc
 import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.msm.usb.configfs.rc
 import /vendor/etc/init/hw/init.target.rc
@@ -59,6 +60,18 @@ on init
     write /sys/fs/cgroup/memory/bg/memory.move_charge_at_immigrate 1
     chown root system /sys/fs/cgroup/memory/bg/tasks
     chmod 0660 /sys/fs/cgroup/memory/bg/tasks
+
+    # Mount and use blkio cgroup
+    mkdir /dev/blkio
+    mount cgroup none /dev/blkio blkio
+    chown system system /dev/blkio
+    chown system system /dev/blkio/tasks
+    chmod 0664 /dev/blkio/tasks
+    mkdir /dev/blkio/bg 0755 system system
+    chown system system /dev/blkio/bg/tasks
+    chmod 0664 /dev/blkio/bg/tasks
+    write /dev/blkio/blkio.weight 1000
+    write /dev/blkio/bg/blkio.weight 100
 
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
