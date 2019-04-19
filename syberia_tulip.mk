@@ -23,10 +23,11 @@ $(call inherit-product-if-exists, vendor/xiaomi/Dirac/dirac.mk)
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
-# Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+# Inherit some common Syberia stuff.
+TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/syberia/common.mk)
 
-PRODUCT_NAME := mk_tulip
+PRODUCT_NAME := syberia_tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
 PRODUCT_MANUFACTURER := Xiaomi
