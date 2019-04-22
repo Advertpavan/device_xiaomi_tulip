@@ -24,4 +24,14 @@
     "target_path": "vendor/xiaomi/Dirac",
     "branch": "pie"
   },
+   {
+    "repository": "Advertpavan/vendor_xiaomi_tulip",
+    "target_path": "vendor/xiaomi/tulip",
+    "branch": "pie"
+  },
+   {
+    "repository": "Advertpavan/kernel_xiaomi_tulip",
+    "target_path": "kernel/xiaomi/tulip",
+    "branch": "pie"
+  },
 ]
