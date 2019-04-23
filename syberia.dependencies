@@ -33,5 +33,5 @@
     "repository": "Advertpavan/kernel_xiaomi_tulip",
     "target_path": "kernel/xiaomi/tulip",
     "branch": "pie"
-  },
+  }
 ]
