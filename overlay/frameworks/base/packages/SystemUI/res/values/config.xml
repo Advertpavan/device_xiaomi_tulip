@@ -65,5 +65,8 @@
         <item>-105</item>
         <item>-44</item>
     </integer-array>
+	
+    <!-- Whether to show HD icon in the status bar for volte -->
+    <bool name="config_display_hd_volte">true</bool>
 </resources>
 
