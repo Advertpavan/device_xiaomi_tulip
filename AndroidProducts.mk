@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_tulip.mk
+    $(LOCAL_DIR)/aicp_tulip.mk
