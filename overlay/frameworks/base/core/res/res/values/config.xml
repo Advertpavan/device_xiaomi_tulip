@@ -598,9 +598,6 @@
     <!-- Whether to show multiuser icon on keyguard -->
     <bool name="config_showMultiuserIconKeyguard">false</bool>
 
-    <!-- Whether the device has outdated qti-telephony-common.jar -->
-    <bool name="config_oldQtiTelephony">false</bool>
-
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
