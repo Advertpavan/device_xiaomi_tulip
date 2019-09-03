@@ -573,7 +573,7 @@
     <dimen name="quick_qs_offset_height">88px</dimen>
 
     <!-- Total height of QQS (quick_qs_offset_height + 128) -->
-    <dimen name="quick_qs_total_height">160dp</dimen>
+    <dimen name="quick_qs_total_height">188dp</dimen>
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
